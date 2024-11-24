@@ -56,8 +56,8 @@ document.getElementById("submit").onclick = function () {
   radius = Number(radius);
   circum = 2 * PI * radius;
   document.getElementById("welcome").textContent =  circum;
-};
-*/
+};*/
+
 const btnincrease = document.getElementById("btnincrease");
 
 const btnreset = document.getElementById("btnreset");
@@ -80,4 +80,5 @@ btnreset.onclick = function () {
 btndecrease.onclick = function () {
   count++;
   countLabel.textContent = count;
+  //random
 };
