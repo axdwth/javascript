@@ -13,7 +13,7 @@
   padding: 4px 3px;
   font-size: 100%;
   color: rgb(59, 59, 59);
-  background-color: rgb(255, 186, 89);
+  background-color: rgba(137, 137, 137, 0.632);
   box-shadow: 10ch;
   border-radius: 10%;
   cursor: pointer;
@@ -21,6 +21,6 @@
   transition: background-color 0.2s;
 }
 .buttons:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.582);
   color: rgb(0, 0, 0);
 }
